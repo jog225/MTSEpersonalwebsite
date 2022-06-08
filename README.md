@@ -23,3 +23,5 @@ Resources Used to Learn and Develop Personal Website:
 		Link: https://youtu.be/muquF8McnrI
 	W3Docs
 		Link: https://www.w3docs.com/learn-html.html
+	Deploy Website(HTML, CSS, JS) to GitHub Pages
+		Link: https://youtu.be/QPwSA6C9GCU
