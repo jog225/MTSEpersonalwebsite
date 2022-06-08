@@ -17,3 +17,9 @@ Resources Used to Learn and Develop Personal Website:
 		Link: https://youtu.be/Hskt1jN7JTc
 	Ionicons
 		Link: https://ionic.io/ionicons/v4
+	How To Create A About Us Page Using HTML And CSS
+		Link: https://youtu.be/K_64Xmm3OcA
+	How To Create Rounded and Circular Image With HTML And CSS
+		Link: https://youtu.be/muquF8McnrI
+	W3Docs
+		Link: https://www.w3docs.com/learn-html.html
