@@ -1,0 +1,14 @@
+{
+  "homepage": "https://jog225.github.io/MTSEpersonalwebsite/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>
+      Personal Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+
+  </head>
+  <body>
+    <section id="home" class="header">
+      <nav>
+        <a href="index.html">
+          <img src="logo.jpg">
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a class="close-icon">
+            <ion-icon name="close" onclick="hideMenu()"></ion-icon>
+          </a>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about-me">ABOUT ME</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#experiences">EXPERIENCES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+
+        </div>
+        <a class="menu-icon">
+          <ion-icon name="menu" onclick="showMenu()"></ion-icon>
+        </a>
+      </nav>
+    <div class="text-box">
+      <h1>
+        Joyce Guo
+      </h1>
+      <p>
+        Learning is a lifelong journey.
+      </p>
+      <a class="github-icon" href="https://github.com/jog225" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a class="facebook-icon" href="https://www.facebook.com/joyce.guo.148/" target="_blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a class="instagram-icon" href="https://www.instagram.com/ysg.joyce0892/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a class="linkedin-icon" href="https://www.linkedin.com/in/joyceg0892/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      <br><a class="more-about-me" href="#about-me">
+        More About Me
+      </a>
+    </div>
+
+    </section>
+
+    <!-------- About Me ------->
+    <section id="about-me" class="about-me">
+      <div class="main">
+        <img src="aboutmepic.jpg">
+        
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Hi, I'm Joyce, currently a sophomore at Lehigh University.
+            Majoring in CSB, I am eager to learn and explore the interactions of Computer Science within the Business industry. In addition, I am involved in various clubs and organizations to enhance my professional understanding of potential careers and to pursue my passions beyond academics. 
+          </p>
+          <a class="resume" href="https://drive.google.com/file/d/1v4qJqHvF9lMJkRjm2kp4tPoFDKJdchn0/view" target="_blank">
+            Resume
+          </a>
+        </div> 
+      </div>
+
+    </section>
+
+    <!-------- Education ------->
+    <section id="education" class="education">
+      <h1>Education</h1>
+
+      <div class="schools">
+        <div class="lehighu">
+          <img src="lehigh.png">
+          <div class="lehigh-text">
+            <h1>Lehigh University</h1>
+            <p1>
+              B.S. Computer Science and Business: August 2021 - May 2025
+            </p1>
+            <br><p2>
+              Activities and Societies: LUSSI, Passport to Success '22, WiCS,
+              WiB, CSBA, SWE, SASE, SEAL, ABC, MTSE, Choices, Helius Dance
+            </p2>
+          </div>
+        </div>
+        <div class="phs">
+          <img src="phs.png">
+          <div class="phs-text">
+            <h1>Parkland High School</h1>
+            <p1>
+              High School Diploma: August 2017 - June 2021
+            </p1>
+            <br><p2>
+              Activities and Societies: NHS, MHS, SHS, Women in STEM,
+              ALCC, UNICEF, Badminton, Parkland Cares, Math Internship
+            </p2>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-------- Experiences ------->
+    <section id="experiences" class="experiences">
+      <h1>Experiences</h1>
+
+      <div class="work">
+        <div class="choices">
+          <img src="choices.jpg">
+          <div class="choices-text">
+            <h1>Camp Mentor</h1>
+            <p>June 2022 - Present</p>
+          </div>
+        </div>
+        <div class="lussi">
+          <img src="lussi.png">
+          <div class="lussi-text">
+            <h1>LUSSI Student Guide</h1>
+            <p>May 2022 - Present</p>
+          </div>
+        </div>
+        <div class="MTSE">
+          <img src="lehigh.png">
+          <div class="MTSE-text">
+            <h1>Camp Mentor</h1>
+            <p>May 2022 - Present</p>
+          </div>
+        </div>
+        <div class="tutor">
+          <img src="americareads.png">
+          <div class="tutor-text">
+            <h1>Academic Tutor</h1>
+            <p>September 2021 - Present</p>
+          </div>
+        </div>
+        <div class="vector">
+          <img src="vectormarketing.jpg">
+          <div class="vector-text">
+            <h1>Sales Representative</h1>
+            <p>May 2021 - August 2021</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-------- Contact ------->
+    <section id="contact" class="contact">
+      <h1>Get in Touch</h1>
+      <p>
+        If you have any questions, or just want to say hi, feel free to email me at jog225@lehigh.edu.
+        I am happy to answer any questions you may have, or just have a chat!
+      </p>
+    </section>
+
+
+
+
+    <!--------JavaScript for Toggle Menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
